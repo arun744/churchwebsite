@@ -1,0 +1,49 @@
+<html>
+<head>
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/jquery-1.7.2.min.js"></script>  
+  <script src="js/lightbox.js"></script>
+  
+  <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+  
+</head>
+<body>
+ <div>
+  <p id="first"></p>
+  <button id ="button1" >click me</button>
+  <button id ="button2" >click me</button>
+ </div>
+   
+<script>
+  
+   $.ajaxSetup ({
+		cache: false
+	});
+    
+var myStylesLocation = "css/gallery-style.css";
+   $.get(myStylesLocation, function(css)
+   {
+   $('<style type="text/css"></style>')
+      .html(css)
+      .appendTo("head");
+   });
+   
+   
+   
+  $('#button1').click(function (){
+  //$('#first').load("page1.html");
+  
+  $.get('page1.html', function(data) {
+  $('#first').html(data);
+  });
+  });
+
+   $('#button2').click(function (){
+  $('#first').load('page2.html');
+ });
+</script>
+ 
+ 
+        
+</body>
+</html>

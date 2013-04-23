@@ -1,0 +1,48 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h2>
+            This photogallery
+        </h2>
+        <div id = "pagewrap">
+            <div>
+            <ul class = "image-gallery">
+                <li>
+                    <a href="image/pastorphoto.png" rel="lightbox[moveimg]">
+                        <img src ="image/pastorphoto.png"/>
+                    </a>
+                </li>
+                 <li>
+                    <a href ="image/solomon2.jpg" rel="lightbox[moveimg]">
+                        <img src ="image/solomon2.jpg"/>
+                    </a>
+                </li>
+                  <li>
+                    <a href ="image/sally.jpg" rel="lightbox[moveimg]">
+                        <img src ="image/sally.jpg"/>
+                    </a>
+                </li>
+                <li>
+                    <a href ="image/kingsolomon1.jpg" rel="lightbox[moveimg]">
+                        <img src ="image/kingsolomon1.jpg"/>
+                    </a>
+                </li>
+                <li>
+                    <a href ="image/jesushand.jpg" rel="lightbox[moveimg]">
+                        <img src ="image/jesushand.jpg"/>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+      
+        
+        
+     
+    </body>
+        
+       
+
+</html>

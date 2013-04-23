@@ -1,0 +1,26 @@
+.image-gallery{
+  width:600px;
+  overflow: scroll;
+  overflow-style: marquee-block;
+}
+
+.image-gallery li{
+  width: 150px;
+  height: 150px;
+  display:inline;
+}
+
+.image-gallery li a img
+{
+  width: 150px;
+  height: 150px;
+  padding-right: 20px;
+}
+
+
+#pagewrap{
+        position:relative;
+	
+	margin: 0 auto;
+	background:#514539;
+}
