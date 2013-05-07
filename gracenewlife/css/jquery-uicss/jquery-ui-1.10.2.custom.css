@@ -789,6 +789,71 @@ button.ui-button::-moz-focus-inner {
 	padding: 1em 1.4em;
 	background:none;
 }
+
+
+.ui-addresstabs {
+	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+	padding: .2em;
+	width:600px;
+	margin-left: 61px;
+	
+}
+.ui-addresstabs .ui-addresstabs-nav {
+	margin: 0;
+	padding: .3em .4em 0;
+	
+	
+}
+.ui-addresstabs .ui-addresstabs-nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 0;
+	margin: 1px .2em 0 0;
+	border-bottom-width: 0;
+	padding: 0;
+	white-space: nowrap;
+	
+	
+	
+}
+.ui-addresstabs .ui-addresstabs-nav li a {
+	float: left;
+	padding: .5em 1em;
+	text-decoration: none;
+	background-color: #4D6CDC;
+	color: #ffffff;
+	webkit-border-radius: 8px 8px 0px 0px;
+        border-radius: 8px 8px 0px 0px;
+	
+}
+.ui-addresstabs .ui-addresstabs-nav li.ui-addresstabs-active {
+	margin-bottom: -1px;
+	padding-bottom: 1px;
+	
+	
+}
+.ui-addresstabs .ui-addresstabs-nav li.ui-addresstabs-active a,
+.ui-addresstabs .ui-addresstabs-nav li.ui-state-disabled a,
+.ui-addresstabs .ui-addresstabs-nav li.ui-addresstabs-loading a {
+	cursor: text;
+	background-color: #ffffff;
+	color: #000000;
+	
+	
+}
+.ui-addresstabs .ui-addresstabs-nav li a, /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-addresstabs-collapsible .ui-addresstabs-nav li.ui-addresstabs-active a {
+	cursor: pointer;
+	font-size: 14px;
+}
+.ui-addresstabs .ui-addresstabs-panel {
+	display: block;
+	border-width: 0;
+	padding: 1em 1.4em;
+	background:none;
+}
+
 .ui-tooltip {
 	padding: 8px;
 	position: absolute;

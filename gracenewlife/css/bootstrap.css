@@ -3146,6 +3146,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6695e2', end
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
      -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          padding-bottom: 30px;
+
 }
 
 .welcomediv {

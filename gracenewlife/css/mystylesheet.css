@@ -16,8 +16,9 @@
 
 
 .galleryTable{
-  margin-top: 90px;
-  margin-bottom: 25px;
+  margin-top: -54px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .galleryTable tr{
@@ -25,45 +26,76 @@
 }
 
 .galleryNav{
-  width: 170px;
-  height: 400px;
+  width: auto;
   text-align: center;
+   margin-top:80px;
+   margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -2px;
+
+  
+}
+
+.galleryNav ul{
+  list-style-type:none;
+ 
 }
 
 .galleryNav li{
-  display: inline-block;
-  border-radius: 5px;
-  padding: 8px;
-  width: inherit;
-  margin-top: 10px;
-  font-size: 18px;
+  display:inline-block;
+  background: rgb(44,104,224);
+   border-radius: 5px 5px 0 0;
+   
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: sans-serif arial;
-  
-  background: rgb(63,184,255); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(63,184,255,1) 0%, rgba(178,225,255,1) 49%, rgba(63,184,255,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(63,184,255,1)), color-stop(49%,rgba(178,225,255,1)), color-stop(100%,rgba(63,184,255,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(63,184,255,1) 0%,rgba(178,225,255,1) 49%,rgba(63,184,255,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(63,184,255,1) 0%,rgba(178,225,255,1) 49%,rgba(63,184,255,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(63,184,255,1) 0%,rgba(178,225,255,1) 49%,rgba(63,184,255,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom, rgba(63,184,255,1) 0%,rgba(178,225,255,1) 49%,rgba(63,184,255,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fb8ff', endColorstr='#3fb8ff',GradientType=0 ); /* IE6-9 */E6-9 */
-
+  background: -moz-linear-gradient(top, rgba(44,104,224,1) 0%, rgba(57,149,229,1) 50%, rgba(66,140,201,1) 51%, rgba(44,104,224,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(44,104,224,1)), color-stop(50%,rgba(57,149,229,1)), color-stop(51%,rgba(66,140,201,1)), color-stop(100%,rgba(44,104,224,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(44,104,224,1) 0%,rgba(57,149,229,1) 50%,rgba(66,140,201,1) 51%,rgba(44,104,224,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(44,104,224,1) 0%,rgba(57,149,229,1) 50%,rgba(66,140,201,1) 51%,rgba(44,104,224,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(44,104,224,1) 0%,rgba(57,149,229,1) 50%,rgba(66,140,201,1) 51%,rgba(44,104,224,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(44,104,224,1) 0%,rgba(57,149,229,1) 50%,rgba(66,140,201,1) 51%,rgba(44,104,224,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c68e0', endColorstr='#2c68e0',GradientType=0 ); /* IE6-9 */
   
 }
 
 .galleryNav li a{
-  color: #3F55D1;
+  
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: sans-serif arial;
+}
+.galleryNav li a:hover{
+  color:#ffffff;
+ 
+}
+.galleryActive {
+  background-color: #ACADB6;
+  color: #2A68F4;
+  font-weight: bold;
+  
+}
+
+.subDiv{
+  overflow: scroll;
+  position:relative;
+   border: 4px solid #ACADB6;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+   margin-bottom: -10px;
+  width:750px;
+  
 }
 
 .galleryDisplay{
-  width:650px;
+  width:750px;
   height:550px;
-  overflow: scroll;
-  border: 4px solid #ACADB6;
-  margin-left: 30px;
-  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
  
-  margin-top: 8px;
 }
 
 
@@ -111,6 +143,86 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fb8ff', end
    font-size: 16px;
 }
 
+
+.prayerborder{
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border: 3px solid #4A4DE8;
+  width:700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+#prayerheader{
+  font-family:'lucida','sans serif' cursive;
+  font-size: 28px;
+  margin-left: 60px;
+  text-decoration: underline;
+}
+
+.prayermsg{
+  margin-left: 60px;
+  font-family: 'sans-serif' arail;
+  font-size: 19px;
+}
+
+.addresslayout{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addresslayout td{
+  vertical-align: top;
+}
+
+.addresstabs{
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #4A4DE8;
+  border-radius: 7px;
+  margin-top: 20px;
+  width: 720px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.addresstabs ul{
+  margin-top: 20px;
+  margin-left: 32px;
+  margin-bottom: 20px;
+}
+
+.addresstabs ul li{
+    display: inline;
+
+}
+.prayerreq{
+  width: 600px;
+}
+
+.prayerreq td{
+  
+  vertical-align: top;
+
+}
+
+#linkemail {
+  color: #4A4DE8;
+}
+
+.prayerreq td img{
+  width: 250px;
+  height: 200px;
+  border: solid #767474 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  
+}
 
 .welcomemsg{
   width:750px;
@@ -166,7 +278,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fb8ff', end
 }
 
 #mapmove{
-  margin-top: -28px;
+  border: 2px solid #3F6FE7;
+  border-radius: 10px;
  
 }
 
@@ -196,8 +309,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fb8ff', end
 }
 
 .contacttable td{
-  padding-left: 5px;
+
   font-size: 15px;
+  vertical-align: top;
+  padding: 20px;
 }
 
 .caroselimg {
@@ -356,27 +471,76 @@ padding-top: 38px;
 }
 
 #sub-contmain{
-  font-size: 18px;
-  font-family: sans-serif Arail;
+  font-size: 16px;
+  font-family: sans-serif 'arial';
   color: #000000;
   text-align: center;
   padding-bottom: 10px;
 }
 
+#sub-contmain1{
+  font-size: 16px;
+  font-family: sans-serif 'arial';
+  color: #000000;
+  text-align:left;
+  padding-bottom: 10px;
+}
+
 #versus-cont{
-  font-size: 18px;
+  font-size: 20px;
   color:#1116A3;
    font-family: sans-serif Arail;
   font-style: italic;
   text-align: center;
+  margin-left: 10px;
+  
+}
+
+#versus-cont1{
+  font-size: 20px;
+  color:#1116A3;
+   font-family: sans-serif Arail;
+  font-style: italic;
+  text-align: center;
+  margin-left: 40px;
   
 }
 
 #versus{
-  ffont-size: 15px;
+  font-size: 15px;
   color:#E64242;
   font-family: sans-serif Arail;
   text-align: center;
+  
+}
+
+#versusmain{
+  font-size: 20px;
+  color:#E64242;
+  font-family: sans-serif Arail;
+  font-style: italic;
+  text-align: center;
+  width:240px;
+  margin-top: 20px;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+#versusinfo{
+  font-size: 15px;
+  color:#8E1FA9;
+  font-family: sans-serif Arail;
+  text-align: center;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tabheader{
+  font-family: sans-serif Arail;
+  font-size: 18px;
+  text-align: center;
+  font-weight:bold;
 }
 
 .side-message div {
@@ -472,22 +636,3 @@ padding-top: 38px;
   
 }
 
-.image-gallery{
-  width:600px;
-  height: 600px;
-  overflow: scroll;
-  overflow-style: marquee-block;
-}
-
-.image-gallery li{
-  width: 150px;
-  height: 150px;
-  display:inline;
-}
-
-.image-gallery li a img
-{
-  width: 150px;
-  height: 150px;
-  padding-right: 20px;
-}

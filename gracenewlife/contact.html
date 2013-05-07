@@ -10,6 +10,8 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
         <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+       <script src="js/jquery-1.9.1.js"></script>
+       <script src="js/jquery-1.7.2.min.js"></script>
     </head>
     <title> Programme - Grace New life chruch - </title>
     <body class="mainbody">
@@ -56,115 +58,67 @@
             
             <tr>
                 <td class = "wellslide">
-                
-                
-                <table class="mapcontent">
-                    <tr >
-              
-                <td>
-                  <p id = "headercontact1"> Map Location:
-                  </p>
-                    </br>
-                    <p id = "mapmove">
-                        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=29+swanson+street,+st.marys+&amp;aq=&amp;sll=-33.759667,150.884119&amp;sspn=0.561725,1.234589&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=29+Swanston+St,+St+Marys+New+South+Wales+2760&amp;ll=-33.760168,150.779886&amp;spn=0.024975,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com.au/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=29+swanson+street,+st.marys+&amp;aq=&amp;sll=-33.759667,150.884119&amp;sspn=0.561725,1.234589&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=29+Swanston+St,+St+Marys+New+South+Wales+2760&amp;ll=-33.760168,150.779886&amp;spn=0.024975,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-                    </p>
-
-                </td>
-                
-                 <td>
-                            <div>
-                               <p id = "headercontact">
-                 Every Sunday Morning - Worship 10am to 12pm
-                 
-                </p>
-                <div class= "contactcontent">
-                    
-                <table class="contacttable">
-                    <tr>
-                        <td id="heading">
-                            Place At:
-                        </td>
-                        <td>
-                             No. 4 Senior Citizen Hall, </br> St.Marys Community Hall,</br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td id="heading">
-                            Address:
-                        </td>
-                        <td>
-                             29 Swanston Street  (Cnr. of Mamre & Great Western HWY)</br>
-                             St.Mary 2760</br>
-                             NSW</br>
-                             Australia.
-                        </td>
-                    </tr>
-                </table>
-                 </div>
-                
-                 <p id = "headercontact">
-                  Office
-                </p>
-                 <div class= "contactcontent">
-                    
-                  <table class="contacttable">
-                    <tr>
-                        <td id="heading">
-                            Address: 
-                        </td>
-                        <td>
-                            71 Mackenzie Bvd, </br>
-                            Seven Hills </br>
-                            NSW 2147</br>
-                            Australia</br>
-                            </br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td id="heading">
-                            Mobile:
-                        </td>
-                        <td>
-                            0408 440 736
-                        </td>
-                    </tr>
-                     <tr>
-                        <td id="heading">
-                            Office:
-                        </td>
-                        <td>
-                            02 9863 3956
-                        </td>
-                    </tr>
-                      <tr>
-                        <td id="heading">
-                            Email:
-                        </td>
-                        <td>
-                            gideonjemi@gmail.com </br>
-                            blessinghealingprayer@gmail.com
-                        </td>
-                    </tr>
-                  </table>
-                 </div>  
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                
-               
-                </td>
-            </tr>
+                   
+                   <div class="prayerborder">
+                    <table class ="prayerreq">
+                        <tr>
+                            <td>
+                                <img src="image/jesushand.jpg">
+                            </td>
+                            <td>
+                               <p id="prayerheader">
+                                Prayer Request
+                               </p>
+                                <p id= "versus-cont1">
+                                    "The earnest prayer of a righteous person has great power and produces wonderful results."  
+                                </p>
+                               <p class="prayermsg">
+                               
+                               </br>
+                               </br>
+                                 Email: 
+                                 <a id = "linkemail" href="mailto:contact@gracenewlifechurch.com">
+                                    contact@gracenewlifechurch.com
+                                 </a>
+                                 
+                               </p>
+                            </td>
+                        </tr>
+                    </table>
+                   </div>
+                   
+                   <div class="addresstabs">
+                       
+                        <ul>
+                            <li>
+                               <a href="#" id="church" class="btn btn-primary btn-large">Church Address</a>
+                            </li>
+                            <li>
+                               <a href="#" id ="office" class="btn btn-primary btn-large">Office Address</a>
+                            </li>
+                        </ul>
+                       
+                       <div id= "display">
+                        
+                       </div>
             
+                   </div>   
+                </td>
+                
+                
+                
+            </tr>
+           
             <tr>
                 <td class="footer">
                    <div>
                     <table class="footeralign">
                         <tr> <td>
                           <ul>
-                            <li><a href="#">Community Connect</a></li> <li><a
-                            href ="#">About Us</a></li> <li><a href= "#">Our
-                            Faith</a></li> <li><a href="#">Events</a></li>
+                           <li><a href="program.html">Community Connect</a></li>
+                            <li><a href ="#">About Us</a></li>
+                            <li><a href= "vision.html">Our Faith</a></li>
+                            <li><a href= "gallery.html">Events</a></li>
                            </ul>
                         </td>
                          <td>
@@ -188,14 +142,35 @@
         </div>
         
         
-        <!---Image slider ---->
-       <link rel="stylesheet" href="css/jquery-uicss/jquery-ui-1.10.2.custom.css" type="text/css"/>
-       <script src="js/jquery-1.9.1.js"></script>
-       <script src="js/jquery-ui-1.10.2.custom.js"></script>
-       <script type="text/javascript">
-        $(function() {
-        $( "#tabs" ).tabs();
-        });
-       </script>
+        <!---load page---->
+       <script>
+  
+   $.ajaxSetup ({
+		cache: false
+	});
+    
+var myStylesLocation = "css/mystylesheet.css";
+   $.get(myStylesLocation, function(css) { $('<style type="text/css"></style>')
+      .html(css) .appendTo("head");
+   });
+   
+  $('#display').load('addresspage/church.html');
+  
+  // ------------community--------------
+  
+  $('#church').click(function (){
+ 
+  
+  $.get('addresspage/church.html', function(data) {
+  $('#display').html(data); }); });
+  
+  //<!-------------kids --------->
+  
+   $('#office').click(function (){
+  
+  $.get('addresspage/office.html', function(data) { $('#display').html(data);
+  }); });
+
+</script>
     </body>
 </html>

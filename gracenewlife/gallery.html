@@ -59,14 +59,13 @@
             
             <tr>
                 <td class = "wellslide">
-                  <table class="galleryTable">
-                    <tr>
-                        <td>
-                            <ul class="galleryNav">
-                                 <li >
+                     <ul class="galleryNav">
+                                 <li>
                                   <a href="#" id ="communityBtn"> Community
-                                  Connect </a>
-                                 </li> <li>
+                                  Connect
+                                  </a>
+                                 </li>
+                                 <li>
                                    <a href ="#" id="healingBtn">Healing
                                    Outreach</a>
                                  </li> <li>
@@ -79,16 +78,20 @@
                                    Welfare</a>
                                  </li>
                             </ul>
-                        </td>
-                        
+            <div class="subDiv">
+                
+                  <table class="galleryTable">
+                    <tr>
                         <!----------- gallery--------------->
                         <td>
+                        
                             <div class="galleryDisplay" id = "myGallery">
                                 
                             </div>
                         </td>
                     </tr>
                   </table>
+            </div>
                 </td>
             </tr>
             
@@ -97,9 +100,10 @@
                     <div> <table class="footeralign">
                         <tr> <td>
                           <ul>
-                            <li><a href="#">Community Connect</a></li> <li><a
-                            href ="#">About Us</a></li> <li><a href= "#">Our
-                            Faith</a></li> <li><a href="#">Events</a></li>
+                           <li><a href="program.html">Community Connect</a></li>
+                            <li><a href ="#">About Us</a></li>
+                            <li><a href= "vision.html">Our Faith</a></li>
+                            <li><a href= "gallery.html">Events</a></li>
                            </ul>
                         </td>
                          <td>
@@ -145,7 +149,10 @@ var myStylesLocation = "css/gallery-style.css";
       .html(css) .appendTo("head");
    });
    
-  $('#myGallery').load('page1.html');
+  $('#myGallery').load('gallerypage/senior.html');
+  
+  
+ 
   
   // ------------community--------------
   
@@ -153,7 +160,10 @@ var myStylesLocation = "css/gallery-style.css";
  
   
   $.get('gallerypage/community.html', function(data) {
-  $('#myGallery').html(data); }); });
+  $('#myGallery').html(data); });
+  }
+  );
+  
   
   //<!-------------kids --------->
   
@@ -168,7 +178,27 @@ var myStylesLocation = "css/gallery-style.css";
   
   $.get('gallerypage/senior.html', function(data) { $('#myGallery').html(data);
   }); });
+   
+   //-----healing ourreach-------
+    $('#healingBtn').click(function (){
   
+  $.get('gallerypage/defaultpage.html', function(data) { $('#myGallery').html(data);
+  }); });
+    
+  //----- mission-------
+    $('#missionBtn').click(function (){
+  
+  $.get('gallerypage/defaultpage.html', function(data) { $('#myGallery').html(data);
+  }); });
+  
+  $( function() {
+  $('a').click( function() {
+    $(this).parents('ul.galleryNav').find('a').each( function( index, element ) {
+        $(element).removeClass('galleryActive');
+    } );
+    $(this).addClass('galleryActive');
+  } );
+} );
   
 </script>
     </body>
